@@ -1,0 +1,468 @@
+@charset "UTF-8";
+/* CSS Document */
+header, section, footer, aside, article, figure, figcaption {
+	display: block;	
+}
+
+body {
+	color: #666666;
+	background-color: #272f33;
+	background-image:url(../img/stock-photo-1224984-communications-tower.jpg);
+	background-size: 200%;
+	background-position: center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	line-height: 1.4em;
+	margin: 0px;
+}
+
+.wrapper {
+	width: 940px;
+	margin: 20px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #fff;	
+}
+
+header {
+	height: 200px;
+	background-image:url(../img/tetherallColor2.png);
+	background-color:#E0F5FF;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid #5c002e;
+}
+
+nav {
+	clear: both;
+	color: #272f33;
+	background-color: #c2ebff;
+	height: 30px;
+	
+}
+
+nav ul {
+	list-style-type: none;	
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+
+	
+}
+
+nav li {
+	margin-right: 40px;	
+	display: inline;
+}
+
+nav li a {	
+	font-size:.85em;
+	color: #272f33;
+	font-weight: bold;	
+}
+
+nav li a:hover, nav li a.selected {
+	color:#5c002e;
+}
+
+section.info {
+	float: left;
+	width: 630px;
+	border-right: 1px solid #eee;
+	border-spacing: 0 10px 0 0;
+	margin-left: 15px;	
+	margin-right: 10px;
+}
+section p {
+	font-size: .85em;	
+}
+
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+	margin-top: 10px;
+	margin-right: 10;
+	padding: 10px 15px 10px 10px;
+}
+
+hgroup {
+	margin-top: 40px;	
+}
+
+figure {
+	float: left;
+	display: inline;
+	width: auto;
+	height: auto;
+	padding: 5px;
+	margin: 10px;
+	border: 1px solid #272f33;
+}
+
+figcaption {
+	color: #666;
+	font-size: .75em;
+	text-align: left;	
+}
+
+section.promo h2 {
+	font-size: 1.2em;
+	line-height: 1.4em;
+	width: 230px;
+	float: left;
+	padding: 0px 0px 0px 5px;	
+}
+
+aside {
+	width: 260px;
+	float: right;
+	}
+
+section.promo p {
+	text-align: center;
+	font-size: 1em;
+	border-spacing: 10px;
+}
+
+aside section a {
+	display: block;
+	text-align: center;
+	padding: 15px;
+	border-bottom: 1px solid #eee;	
+}
+
+aside section a:hover {
+	color:#5c002es;	
+	background-color: #efefef;
+}
+
+a {
+	color: #de6581;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-weight: bold;	
+}
+
+h2 {
+	margin: 10px 0px 5px 0px;
+	padding: 0px;	
+}
+
+h3 {
+	margin: 0px 0px 10px 0px;
+	color: #666;	
+}
+
+aside h2 {
+	padding: 5px;
+	color: #666;	
+}
+
+footer {
+	font-size: .85em;
+	text-align: center;
+	clear: both;
+	color: #fff;
+	background-color: #272f33;
+	height: 30px;
+	padding: 7px 0px 0px 20px;
+}
+
+/*------FORM STYLE---------------------------------*/
+
+section.thankyou {
+	width:auto;
+	text-align: center;	
+	line-height: 1.2em;
+	margin: 20px;
+	padding: 10px;
+}
+
+section.thankyou h2 {
+	font-size: 1.2em;
+	font-weight: bold;	
+}
+
+section.thankyou p {
+	font-size: 1em;
+	line-height: 1.2em;
+
+}
+section.col-2-3 {
+	float:left;
+	width: 500px;
+	border-right: 1px solid #eee;
+	border-spacing: 0 10px 0 0;
+	margin: 20px 10px 10px 20px;	
+}
+form {
+  margin-bottom:22px;
+  padding-bottom: 10px;
+  width: 500px;
+}
+
+p {
+	font-size: 1.25em
+}
+
+input,
+select,
+textarea {
+  font:300 16px/22px Lato,"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.register-group label {
+  color:#648880;
+  cursor:pointer;
+  font-weight:400
+}
+
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border:1px solid #648880;
+  border-radius:5px;
+  color:#888;
+  display:block;
+  margin:5px 0 27px 1px;
+  padding:5px 1px 8px 0;
+}
+
+.register-group input,
+.register-group textarea {
+  width:100%
+}
+
+.register-group select {
+  width:100%
+}
+
+.register-group textarea {
+  height:2.5em
+}
+
+.submit {
+  color:#5c002e;
+  background:#c2ebff;
+  text-decoration:none;
+  padding:0 10px;
+  font-size:12px;
+  font-weight:700;
+  line-height:22px;
+  height:22px;
+  text-transform:uppercase;
+  letter-spacing:.8em;
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:2px;
+  margin:10px 0 0
+}
+
+.submit:hover,
+.submit:focus {
+  color:#c2ebff;
+  background:#5c002e
+}
+
+
+
+
+
+
+
+/*---------Media Queries ------------------*/
+
+/*-------------SmartPhones------------------*/
+@media screen and (min-width: 320px) and (max-width: 750px)
+{
+	body {
+		color:#000;
+		background-color: #FFF;
+		background-image: none;	
+	}
+	
+	.wrapper {
+		width: 100%;
+		background-color: #FFF;	
+	}
+	
+	header {
+		height: 100px;
+		background-size: contain;
+		background-position:center;
+		background-repeat: no-repeat;
+		border-bottom: 3px solid #5c002e;	
+	}
+	
+	nav {
+		clear: both;
+		color: #272f33;
+		width: 100%;
+		height: 30px;	
+	}
+	
+	nav ul {
+		list-style-type: none;
+		margin: 0 10px;
+		padding: 5px 0px;	
+	}
+	
+	section.info {
+		width: 95%;
+		border: none;
+		margin: 5px;
+		
+	}
+	
+	section p {
+		font-size: 1em;
+	}
+	
+	article {
+		clear: both;
+		overflow: auto;
+		width: 95%;
+		wargin: 5px;
+		padding: 5px;	
+	}
+	
+	hgroup {
+		margin-top: 10px;	
+	}
+	
+	figure {
+		border: none;	
+	}
+
+	figure img{
+		float: left;
+		display: inline;
+		width: 95%;
+		margin: 5px;
+		padding: 5px;
+	}
+	
+	section.promo h2 {
+		font-size: 1.2em;
+		line-height: 1.2em;
+		width: auto;
+		display: block;
+		padding: 2px;
+	}
+	
+	section.promo p h2 {
+		font-size: 1em;
+		line-height: 1.4em;
+		border-top: 1px solid #999;
+		border-spacing: 0;	
+	}
+	
+	aside {
+		width: 320px;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+	
+	aside figure img {
+		width: 95%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		border: none;
+	}
+	
+	aside figure p {
+		font-size: .8em;
+		text-align: center;
+		border: none;
+	}
+	
+	aside figure p.social img {
+		width: 20%;	
+	}
+	
+	aside section a {
+		text-align: center;
+		padding: 5px;	
+		border: none;
+	}
+}
+
+/*-------------Tablets------------------*/
+@media screen and (min-width: 750px) and (max-width: 1024px)
+
+{
+	body {
+		color:#000;
+		background-color: #FFF;
+		background-image: none;	
+	}
+	
+	.wrapper {
+		width: 100%;
+		background-color: #FFF;	
+	}
+	
+	header {
+		height: 100px;
+		background-size: contain;
+		background-position:center;
+		background-repeat: no-repeat;
+		border-bottom: 3px solid #5c002e;	
+	}
+	
+	nav {
+		width: 100%;	
+	}
+
+	section.info {
+		width: 60%;
+		border: 1px solid #eee;
+		margin: 5px;
+		
+	}
+		
+	article {
+		width: 90%;
+		padding: 10px;
+		margin-left: auto;
+		margin-right: auto;
+			
+	}
+	
+	aside figure p {
+		font-size: .8em;
+		text-align: center;	
+	}
+	
+	aside figure p.social img {
+		width: 20%;	
+	}
+	
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
